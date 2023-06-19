@@ -1,0 +1,11 @@
+export { D as DEBUG, T as TspecDocsMiddleware, g as generateTspec, i as initTspecServer } from './chunks/index.js';
+import 'express';
+import 'http-proxy-middleware';
+import 'swagger-ui-express';
+import 'fs/promises';
+import 'path';
+import 'debug';
+import 'glob';
+import 'typescript';
+import 'typescript-json-schema';
+import 'json-schema-to-openapi-schema';
